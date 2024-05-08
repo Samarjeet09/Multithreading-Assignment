@@ -27,5 +27,7 @@ for n in NUM_THREADS:
         if pool._value!=0:
             threading.Thread(target=MutliplyMat,args=(CONST_MAT,))
             multiplication_counter+=1
+
+
         
 
